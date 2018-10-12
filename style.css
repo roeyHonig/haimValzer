@@ -1,0 +1,16 @@
+body , html{
+    height: 100%;
+    margin:0;
+    padding: 0;
+    background-color: chartreuse; /*TODO: change this*/
+    
+}
+
+div {
+    font-size: 48px;
+    display: inline-block;
+    height: 10em;
+    width: 10em;
+    background-color: crimson;
+    
+}
