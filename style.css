@@ -38,27 +38,29 @@ body {
 
 
 
-.singlePage{
-    
-	background:-webkit-gradient(linear, right top, left top, color-stop(0.95, #fff), color-stop(1, #cacaca));
-	background-image:-webkit-linear-gradient(right, #fff 95%, #cacaca 100%);
-	background-image:-moz-linear-gradient(right, #fff 95%, #cacaca 100%);
-	background-image:-ms-linear-gradient(right, #fff 95%, #cacaca 100%);
-	background-image:-o-linear-gradient(right, #fff 95%, #cacaca 100%);
-	background-image:linear-gradient(right, #fff 95%, #cacaca 100%);
-}
 
 .hard {
     background-color: black;
 }
 
-.flipbook .hard{
-	width:480px;
+
+.flipbook {
+	width:860px;
 	height:600px;
 }
 
-.flipbook .singlePage{
-	width:460px;
+.flipbook .own-size{
+	width:400px;
 	height:582px;
-    overflow:hidden;
+    background-color:white;
+    
+	overflow:hidden;
 }
+
+
+/*
+.singlePage {
+    width:400px;
+	height:300px;
+}
+*/
