@@ -12,7 +12,7 @@ body {
 #root {
     /*display: inline-block;*/
     margin: auto;
-    background-color: crimson;
+    background-color: crimson; /*TODO: change this*/
     height: 100%;
     width: 100%;
     position: relative;
@@ -24,10 +24,41 @@ body {
 #bookContainer {
     /*display: inline-block;*/
     margin: auto;
-    background-color: rgb(10, 76, 175);
+    background-color: rgb(10, 76, 175); /*TODO: change this*/
     height: 80%;
     width: 100%;
     position: absolute;
     bottom: 0px;
+    padding: 20px;
+}
+
+#flipbook{
     
+}
+
+
+
+.singlePage{
+    
+	background:-webkit-gradient(linear, right top, left top, color-stop(0.95, #fff), color-stop(1, #cacaca));
+	background-image:-webkit-linear-gradient(right, #fff 95%, #cacaca 100%);
+	background-image:-moz-linear-gradient(right, #fff 95%, #cacaca 100%);
+	background-image:-ms-linear-gradient(right, #fff 95%, #cacaca 100%);
+	background-image:-o-linear-gradient(right, #fff 95%, #cacaca 100%);
+	background-image:linear-gradient(right, #fff 95%, #cacaca 100%);
+}
+
+.hard {
+    background-color: black;
+}
+
+.flipbook .hard{
+	width:480px;
+	height:600px;
+}
+
+.flipbook .singlePage{
+	width:460px;
+	height:582px;
+    overflow:hidden;
 }
